@@ -1,6 +1,0 @@
-write_files:
-  - path: /var/www/html/pippo.html
-    content: |
-      ciao Pippo
-    owner: www-data:www-data  # Allinea utente/gruppo a quelli di Nginx
-    permissions: '0644'       # Permessi in formato ottale
